@@ -1,0 +1,22 @@
+{
+  "name": "authport-makerpass",
+  "version": "1.0.0",
+  "description": "An AuthPort plugin for MakerPass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactorcore/authom-makerpass.git"
+  },
+  "author": "Gilbert <gilbertbagrza@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reactorcore/authom-makerpass/issues"
+  },
+  "homepage": "https://github.com/reactorcore/authom-makerpass#readme",
+  "dependencies": {
+    "authport": ">= 1.0.0"
+  }
+}
