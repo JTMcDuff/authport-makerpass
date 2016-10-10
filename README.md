@@ -22,6 +22,7 @@ AuthPort.createServer({
   id: process.env.MAKERPASS_CLIENT_ID,
   secret: process.env.MAKERPASS_CLIENT_SECRET,
   callbackURL: process.env.HOST + '/auth/makerpass/callback',
+  // scope: 'admin.read admin.write',
 })
 
 AuthPort.on('auth', function(req, res, data) {
